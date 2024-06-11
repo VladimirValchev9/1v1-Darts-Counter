@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1v1 Darts Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="p1">Player 1</h1>
+    <h1 id="p2">Player 2</h1>
+    <input id="score1" readonly>
+    <input id="score2" readonly disabled>
+    <input id="input1" type="number" min="0" max="180" placeholder="Enter score">
+    <button id="button1" onclick="points1()">Enter</button>
+    <input id="input2" type="number" min="0" max="180" placeholder="Enter score" disabled>
+    <button id="button2" onclick="points2()">Enter</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
